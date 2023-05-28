@@ -1,0 +1,87 @@
+.mapa-container {
+	position:relative; /*Ajustar el posicionamiento de los elementos dentro del contenedor*/
+	font-size:1.15em;  /*Tamaño de fuente */
+	background-color: rgb(163, 222, 135); /*Color de fondo*/
+	border: 3px solid rgb(88, 158, 7); /* Color del borde*/
+	box-shadow:2px 2px 5px black; /*Sombra del contenedor*/
+	width: 80%; /*Ancho del contenedor en 80% */
+	padding: 1%; /* Espacio de relleno alrededor del contenido del contenedor */
+	background-position: center; /* Posición del fondo del contendedor centrada*/
+	display:block; /*Visualización en bloque*/
+    
+}
+
+.mapa {
+    width: 98%; /*Ancho del mapa del 98% dentro del contenedor */
+    display: block; /*Visualización en bloque*/
+    margin: auto; /* Imagenes auomáticas a la izquierda y derecha */
+}
+
+.punto { /* Estilo de todos los marcadores*/  
+    width: 1%; /* Ajusta el ancho del punto */
+    height: 2%; /* Ajusta la altura del punto */
+    position: absolute; /* Posición obsoluta */
+    cursor: pointer; /* Estilo del cursor como una mano */
+    background-size: cover; /* La imagen de fondo de ajusta al contenedor */
+    border-radius: 50%;
+    background-color: rgb(0, 99, 197); /*color del punto*/
+    transition: 0.5s;
+}
+
+.punto:hover { /* Bahía málaga */
+    background-color: rgb(0, 112, 223); /*color del punto*/
+    transform: scale(1.5); /* */
+}
+
+#punto1 { /* Bahía málaga */
+    top: 71%; /* Posición vertical */
+    left: 41.5%; /* Posición horizontal*/
+}
+
+#punto2 { /*La Bocana*/
+    top: 78%; /* Posición vertical */
+    left: 48%; /* Posición horizontal*/;
+}
+
+#punto3 { /*La Cascada La Sierpe*/
+    top: 69%; /* Posición vertical */
+    left: 44.5%; /* Posición horizontal*/
+}
+
+#punto4 { /*Juanchaco y Ladrilleros*/
+    top: 73%; /* Posición vertical */
+    left: 41%; /* Posición horizontal*/
+}
+
+#punto5 { /*Reserva Forestal Protectora de los ríos Escalerete y San Cipriano*/
+    top: 80%; /* Posición vertical */
+    left: 53%; /* Posición horizontal*/
+}
+
+#punto6 { /*Atedral de Buenaventura*/
+    top: 76%; /* Posición vertical */
+    left: 50.5%; /* Posición horizontal*/
+}
+
+#punto7 { /*Pianguita*/
+    top: 79%; /* Posición vertical */
+    left: 46%; /* Posición horizontal*/ 
+}
+
+.informacion {
+    background-color: #ededed; /*Color de fondo del elemento*/
+    display: none; /*Ocultar elemento */ 
+    position: absolute; /* Posición obsoluta */
+    top: 32%; /* Distancia entre la parte superior del elemento y el contenedor */
+    left: 40%;  /* Distancia entre la parte izquierda del elemento y el contenedor */
+    width: 30%; /*Ancho del elemento del 50% del contenedor*/
+    padding: 2%; /* Espacio de relleno del 2% en todos los lados */
+    border-radius: 12px;
+}
+
+.informacion img {
+    width: auto;  /* Ancho automático  */ 
+    height: auto; /* Altura automática */ 
+    max-width: 100%; /* Ancho máx de 100%*/
+    max-height: 100%; /* Ancho min de 100% */
+}

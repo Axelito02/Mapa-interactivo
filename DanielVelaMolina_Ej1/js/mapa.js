@@ -35,36 +35,40 @@ function VerInfo(puntoId) {
     // Mostrar información según el punto seleccionado
     switch (puntoId) {
         case 1:
-            ElementoT.textContent = 'Ciudad Amurallada';
-            ElementoD.textContent = 'Esta muralla protegía a la ciudad de los ataques piratas en la costa, se construyó en piedra y actualmente se conserva su diseño colonial, pues dentro de esta se pueden observar calles y casas empedradas que llaman la atención.';
-            ElementoI.src = 'IMAGENES/1.jpg';
+            ElementoT.textContent = 'Bahía málaga';
+            ElementoD.textContent = 'La Bahía Málaga es una bahía del océano Pacífico ubicada al occidente del departamento del Valle del Cauca, en Colombia, entre el delta del río San Juan y la bahía de Buenaventura.';
+            ElementoI.src = 'img/actividades_1.jpg';
             break;
         case 2:
-            ElementoT.textContent = 'Getsemaní';
-            ElementoD.textContent = 'Un barrio histórico y cultural en Cartagena, conocido por sus vibrantes murales, estrechas calles y animada vida nocturna.';
-            ElementoI.src = 'IMAGENES/2.jpg';
+            ElementoT.textContent = 'La Bocana';
+            ElementoD.textContent = 'La Bocana es una de las playas más espectaculares del Pacífico colombiano, está muy cerca al puerto de Buenaventura, lo que hace que sea muy visitada por los turistas nacionales y extranjeros que buscan un destino sostenible y rico en naturaleza.';
+            ElementoI.src = 'img/actividades_7.jpg';
             break;
         case 3:
-            ElementoT.textContent = 'Castillo de San Felipe';
-            ElementoD.textContent = 'Un logro de la ingeniería militar que refleja la estrategia defensiva de la ciudad durante la época colonial. Es un sitio que ofrece una gran vista a la ciudad y un lugar imprescindible de visitar.';
-            ElementoI.src = 'IMAGENES/3.jpg';
+            ElementoT.textContent = 'La Cascada La Sierpe';
+            ElementoD.textContent = 'La cascada se encuentra ubicada en la Vereda la laja más o menos a 5 km del pueblo y una media hora en carro.';
+            ElementoI.src = 'img/actividades_2.jpg';
             break;
         case 4:
-            ElementoT.textContent = 'Parque el Centenario';
+            ElementoT.textContent = 'Juanchaco y Ladrilleros';
             ElementoD.textContent = 'De los parques más antiguos de la ciudad, se inauguró en 1911 para el centenario de la independencia de Colombia. Allí se pueden ver diferentes esculturas y monumentos que son de atractivo para los habitantes y visitantes de esta ciudad.';
-            ElementoI.src = 'IMAGENES/4.jpg';
+            ElementoI.src = 'img/actividades_5.jpg';
             break;
         case 5:
-            ElementoT.textContent = 'Baluarte de Santo Domingo';
-            ElementoD.textContent = 'Este baluarte fue estratégicamente ubicado en la esquina al noroeste de la muralla, su función era defender la entrada al puerto de la ciudad, se contruyó con muros de piedra sólidos. Este baluarte cuenta con cañones que defendían la ciudad ante cualquier amenaza.';
-            ElementoI.src = 'IMAGENES/5.jpg';
+            ElementoT.textContent = 'Reserva Forestal Protectora de los ríos Escalerete y San Cipriano';
+            ElementoD.textContent = 'La Reserva protectora de los ríos Escalerete y San Cipriano se llega en ‘moto brujitas’, unos vehículos pequeños que avanzan sobre el ferrocarril. Ese es el primer atractivo que encuentran quienes viajan a este sitio de 8.564 ha, ubicado a unos 40 minutos de Buenaventura. Allí los turistas se pueden bañar en nueve pozos de agua dulce, hospedarse en cabañas y probar platos típicos de la región.';
+            ElementoI.src = 'img/actividades_6.jpg';
             break;
         case 6:
-            ElementoT.textContent = 'Torre del Reloj';
+            ElementoT.textContent = 'Atedral de Buenaventura';
             ElementoD.textContent = 'Un monumento ubicado a la entrada de la ciudad amurallada, su contrucción inició en el siglo XIX y simboliza la entrada a esta ciudad en donde se marca el acceso al casco antiguo de Cartagena.';
-            ElementoI.src = 'IMAGENES/6.jpg';
+            ElementoI.src = 'img/actividades_8.jpg';
             break;
-        // Agrega más casos según tus marcadores
+        case 7:
+            ElementoT.textContent = 'Pianguita';
+            ElementoD.textContent = 'En el océano Pacífico colombiano a menos de 30 minutos de Buenaventura, está ubicada la paradisiaca playa de Piangüita. Lugar ideal para el descanso y la recreación, rodeado por un imponente paisaje y una exuberante vegetación de manglar.';
+            ElementoI.src = 'img/actividades_11.jpg';
+            break;
     }
 
     // Mostrar el elemento de información

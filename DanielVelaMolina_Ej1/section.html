@@ -2,10 +2,13 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="stylesheet" href="estilos/estilos-mapa.css">
     <link  rel="icon"   href="favicon.ico" type="image/ico">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="./js/mapa.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet"> <!-- Nombramos la libreria Font Awesome para el icono del menu-->
     <title>Mapa</title>
 </head>
 <body>
@@ -47,9 +50,21 @@
                     </header>
                     
                     
-                    <div class="content">
+                    <div class="content">  
+                        <div id="punto1" class="punto" onclick="VerInfo(1)"></div>
+                        <div id="punto2" class="punto" onclick="VerInfo(2)"></div>
+                        <div id="punto3" class="punto" onclick="VerInfo(3)"></div>
+                        <div id="punto4" class="punto" onclick="VerInfo(4)"></div>
+                        <div id="punto5" class="punto" onclick="VerInfo(5)"></div>
+                        <div id="punto6" class="punto" onclick="VerInfo(6)"></div>
+                        <div id="punto7" class="punto" onclick="VerInfo(7)"></div>
+
+                        <div id="info" class="informacion">
+                            <h3 id="titulo"></h3>
+                            <p id="contenido"></p>
+                            <img id="imagen" src="">
+                        </div>
                         
-        
                         <img src="img/Mapa_buena.png" class="imgtext" alt="Buenaventura" />
                         <p class="infoimg"><a href="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Mapa_Diocesis_de_Buenaventura.svg/1200px-Mapa_Diocesis_de_Buenaventura.svg.png"  target="_blank" class="infoa">(Imagen tomada de Wikimedia)</a></p>
                     </div>
