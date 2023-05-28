@@ -10,6 +10,9 @@
     list-style: none;
     box-sizing: border-box;
     
+	 
+	  
+    
 }
 
 body {
@@ -20,6 +23,11 @@ body {
 	background: #f2f2f2; 
 	font-size: 1em;
 	line-height: 1.5em;
+	
+	background-image: url("../img/paisaje_fondo.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 	
 	padding-top: 80px;
 }
@@ -46,7 +54,7 @@ img {
 }
 
 .imgtext {  /* cambiamos algunas propiedades solo para los que posean esta clase como el tamaño de letra y pasa a ser en bloque */
-	max-width: 100%;
+	max-width: 50%;
 	height: auto;
 	display:block;
   margin:auto;
