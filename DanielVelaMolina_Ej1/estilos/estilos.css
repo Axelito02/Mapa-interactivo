@@ -54,7 +54,7 @@ img {
 }
 
 .imgtext {  /* cambiamos algunas propiedades solo para los que posean esta clase como el tamaño de letra y pasa a ser en bloque */
-	max-width: 50%;
+	max-width: 100%;
 	height: auto;
 	display:block;
   margin:auto;

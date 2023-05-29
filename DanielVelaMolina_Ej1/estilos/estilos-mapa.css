@@ -1,3 +1,13 @@
+.imgtext_1{ /* esta es el tamano de la imagen del mapa*/
+
+    max-width: 60%;
+	height: auto;
+	display:block;
+   margin:auto;
+   margin-bottom: 10%;
+
+}
+
 .mapa-container {
 	position:relative; /*Ajustar el posicionamiento de los elementos dentro del contenedor*/
 	font-size:1.15em;  /*Tamaño de fuente */
@@ -34,38 +44,38 @@
 }
 
 #punto1 { /* Bahía málaga */
-    top: 71%; /* Posición vertical */
-    left: 41.5%; /* Posición horizontal*/
+    top: 60%; /* Posición vertical */
+    left: 38%; /* Posición horizontal*/
 }
 
 #punto2 { /*La Bocana*/
-    top: 78%; /* Posición vertical */
-    left: 48%; /* Posición horizontal*/;
+    top: 68%; /* Posición vertical */
+    left: 47%; /* Posición horizontal*/;
 }
 
 #punto3 { /*La Cascada La Sierpe*/
-    top: 69%; /* Posición vertical */
-    left: 44.5%; /* Posición horizontal*/
+    top: 58%; /* Posición vertical */
+    left: 42.5%; /* Posición horizontal*/
 }
 
 #punto4 { /*Juanchaco y Ladrilleros*/
-    top: 73%; /* Posición vertical */
-    left: 41%; /* Posición horizontal*/
+    top: 62%; /* Posición vertical */
+    left: 37.5%; /* Posición horizontal*/
 }
 
 #punto5 { /*Reserva Forestal Protectora de los ríos Escalerete y San Cipriano*/
-    top: 80%; /* Posición vertical */
-    left: 53%; /* Posición horizontal*/
+    top: 71%; /* Posición vertical */
+    left: 54%; /* Posición horizontal*/
 }
 
 #punto6 { /*Atedral de Buenaventura*/
-    top: 76%; /* Posición vertical */
-    left: 50.5%; /* Posición horizontal*/
+    top: 65%; /* Posición vertical */
+    left: 51.1%; /* Posición horizontal*/
 }
 
 #punto7 { /*Pianguita*/
-    top: 79%; /* Posición vertical */
-    left: 46%; /* Posición horizontal*/ 
+    top: 68%; /* Posición vertical */
+    left: 44.5%; /* Posición horizontal*/ 
 }
 
 .informacion {
@@ -84,4 +94,66 @@
     height: auto; /* Altura automática */ 
     max-width: 100%; /* Ancho máx de 100%*/
     max-height: 100%; /* Ancho min de 100% */
+}
+
+
+@media (max-width: 1200px){
+    
+}
+
+@media (max-width: 950px){
+
+
+   .mapa-container {
+
+        height: 50%;
+    }
+
+
+    .mapa {
+        /*Ancho del mapa del 98% dentro del contenedor */
+        height: 50%;
+        display: block; /*Visualización en bloque*/
+        margin: auto; /* Imagenes auomáticas a la izquierda y derecha */}
+    
+    .punto:hover { /* Bahía málaga */
+        background-color: rgb(0, 112, 223); /*color del punto*/
+        transform: scale(1.5); /* */
+    }
+    
+    #punto1 { /* Bahía málaga */
+        top: 60%; /* Posición vertical */
+        left: 38%; /* Posición horizontal*/
+    }
+    
+    #punto2 { /*La Bocana*/
+        top: 68%; /* Posición vertical */
+        left: 47%; /* Posición horizontal*/;
+    }
+    
+    #punto3 { /*La Cascada La Sierpe*/
+        top: 58%; /* Posición vertical */
+        left: 42.5%; /* Posición horizontal*/
+    }
+    
+    #punto4 { /*Juanchaco y Ladrilleros*/
+        top: 62%; /* Posición vertical */
+        left: 37.5%; /* Posición horizontal*/
+    }
+    
+    #punto5 { /*Reserva Forestal Protectora de los ríos Escalerete y San Cipriano*/
+        top: 30%; /* Posición vertical */
+        left: 54%; /* Posición horizontal*/
+    }
+    
+    #punto6 { /*Atedral de Buenaventura*/
+        top: 65%; /* Posición vertical */
+        left: 51.1%; /* Posición horizontal*/
+    }
+    
+    #punto7 { /*Pianguita*/
+        top: 68%; /* Posición vertical */
+        left: 44.5%; /* Posición horizontal*/ 
+    }
+    
 }
