@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="stylesheet" href="estilos/estilos-mapa.css">
+    <link  rel="icon"   href="favicon.ico" type="image/ico">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="./js/mapa.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet"> <!-- Nombramos la libreria Font Awesome para el icono del menu-->
+    <title>Mapa</title>
+</head>
+<body>
+
+    <body>
+        <!--Usamos la etiqueta header para crear un encabezado fijo para nuestra pagina -->	
+            <header id="main-header">
+                
+                <nav>
+                    <input type="checkbox" id="check">
+                    <label for="check" class="checkbtn"><!-- Agregamos el icono del menu comprimido agregandole una clase que nos ofrece la libreria-->
+                        <i class="fas fa-bars"></i>
+                    </label>
+                    <a href="#" class="enlace">
+                        <img src="logo.png" alt="" class="logo"> <!-- Agregamos un logo en el encabezado fijo de la pagina-->
+                    </a>
+                    <ul>
+                        <li><a  href="index.html">Inicio</a></li>
+                        <li><a href="espacio.html">Espacio</a></li> <!-- usamos la etiqueda Active , a la que le añadimos propiedades distintas a las otras li-->
+                        <li><a href="personajes.html">Personajes</a></li>
+                        <li><a href="actividades.html">Actividades</a></li>
+                        <li><a  href="historico.html">Historico</a></li>
+                        <li><a href="referencia.html">Referencias</a></li>
+                        <li><a href="mapainteractivo.html">Aspectos Generales</a></li>
+                        <li><a class="active" href="section.html">Mapa</a></li>
+                    </ul>
+                </nav>
+        
+            </header>
+        
+            <!-- / Cuerpo de la Pagina web -->
+        
+            
+            <section id="main-content">
+            
+                <article>
+                    <header>
+                        <h1><b>Ubicación de las actividades</b></h1>
+                    </header>
+                    
+                    
+                    <div class="content">  
+
+                        <div class="second_box">
+                        <div id="punto1" class="punto" onclick="VerInfo(1)"></div>
+                        <div id="punto2" class="punto" onclick="VerInfo(2)"></div>
+                        <div id="punto3" class="punto" onclick="VerInfo(3)"></div>
+                        <div id="punto4" class="punto" onclick="VerInfo(4)"></div>
+                        <div id="punto5" class="punto" onclick="VerInfo(5)"></div>
+                        <div id="punto6" class="punto" onclick="VerInfo(6)"></div>
+                        <div id="punto7" class="punto" onclick="VerInfo(7)"></div>
+                      </div>
+                        <div id="info" class="informacion">
+                            <h3 id="titulo"></h3>
+                            <p id="contenido"></p>
+                            <img id="imagen" src="">
+                        </div>
+                        
+                        <img src="img/Mapa_buena.png" class="imgtext_1" alt="Buenaventura" />
+                        <p class="infoimg"><a href="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Mapa_Diocesis_de_Buenaventura.svg/1200px-Mapa_Diocesis_de_Buenaventura.svg.png"  target="_blank" class="infoa">(Imagen tomada de Wikimedia)</a></p>
+                    </div>
+                    
+                </article> <!-- /article -->
+            
+            </section> <!-- / #main-content -->
+        
+            
+            
+            <footer id="main-footer">
+                <p>&copy; 2023 <a href="#">Daniel Vela Molina</a></p>
+            </footer> <!-- Pestaña de Dueño -->
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

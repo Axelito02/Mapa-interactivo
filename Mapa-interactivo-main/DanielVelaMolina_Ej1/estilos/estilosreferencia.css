@@ -1,0 +1,29 @@
+/* -----------------HOJA DE ESTILOS SECUNDARIA - No todas usan esta hoja de estilos----------------------*/
+
+
+a {
+   color:#9b9b9b;
+   text-decoration: none;
+}
+
+/*Se brinda formato general a vinculos , etiqueta <span> para darle formato a algunas partes del texto */
+
+span {
+    font-weight: bold;
+}
+
+
+/* los objetos que tengan la clase .firma se incrementará el tamaño de letra */
+
+.firma {
+	padding-top: 1.8em;
+	display: block;
+
+}
+
+/*Clase para el seguir leyendo , para que se distinga del texto principal */
+
+.seguirleyendo {
+	font-style: italic;
+
+}
