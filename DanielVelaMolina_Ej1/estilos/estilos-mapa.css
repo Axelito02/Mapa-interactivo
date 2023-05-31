@@ -44,38 +44,38 @@
 }
 
 #punto1 { /* Bahía málaga */
-    top: 60%; /* Posición vertical */
-    left: 38%; /* Posición horizontal*/
+    top: 73.1%; /* Posición vertical */
+    left: 39.6%; /* Posición horizontal*/
 }
 
 #punto2 { /*La Bocana*/
-    top: 68%; /* Posición vertical */
-    left: 47%; /* Posición horizontal*/;
+    top: 82%; /* Posición vertical */
+    left: 47.6%; /* Posición horizontal*/;
 }
 
 #punto3 { /*La Cascada La Sierpe*/
-    top: 58%; /* Posición vertical */
-    left: 42.5%; /* Posición horizontal*/
+    top: 71%; /* Posición vertical */
+    left: 43.1%; /* Posición horizontal*/
 }
 
 #punto4 { /*Juanchaco y Ladrilleros*/
-    top: 62%; /* Posición vertical */
-    left: 37.5%; /* Posición horizontal*/
+    top: 75%; /* Posición vertical */
+    left: 39.3%; /* Posición horizontal*/
 }
 
 #punto5 { /*Reserva Forestal Protectora de los ríos Escalerete y San Cipriano*/
-    top: 71%; /* Posición vertical */
+    top: 84%; /* Posición vertical */
     left: 54%; /* Posición horizontal*/
 }
 
 #punto6 { /*Atedral de Buenaventura*/
-    top: 65%; /* Posición vertical */
+    top: 78.1%; /* Posición vertical */
     left: 51.1%; /* Posición horizontal*/
 }
 
 #punto7 { /*Pianguita*/
-    top: 68%; /* Posición vertical */
-    left: 44.5%; /* Posición horizontal*/ 
+    top: 83%; /* Posición vertical */
+    left: 45%; /* Posición horizontal*/ 
 }
 
 .informacion {
@@ -122,38 +122,81 @@
     }
     
     #punto1 { /* Bahía málaga */
-        top: 60%; /* Posición vertical */
-        left: 38%; /* Posición horizontal*/
+        top: 33.2%; /* Posición vertical */
+        left: 39%; /* Posición horizontal*/
+        height: 7px;
+        width: 7px;
     }
     
     #punto2 { /*La Bocana*/
-        top: 68%; /* Posición vertical */
+        top: 35%; /* Posición vertical */
         left: 47%; /* Posición horizontal*/;
+        height: 7px;
+        width: 7px;
     }
     
     #punto3 { /*La Cascada La Sierpe*/
-        top: 58%; /* Posición vertical */
-        left: 42.5%; /* Posición horizontal*/
+        top: 33%; /* Posición vertical */
+        left: 43.5%; /* Posición horizontal*/
+        height: 7px;
+        width: 7px;
+        
     }
     
     #punto4 { /*Juanchaco y Ladrilleros*/
-        top: 62%; /* Posición vertical */
-        left: 37.5%; /* Posición horizontal*/
+        top: 33.8%; /* Posición vertical */
+        left: 38%; /* Posición horizontal*/
+        height: 7px;
+        width: 7px;
     }
     
     #punto5 { /*Reserva Forestal Protectora de los ríos Escalerete y San Cipriano*/
-        top: 30%; /* Posición vertical */
+        top: 35.4%; /* Posición vertical */
         left: 54%; /* Posición horizontal*/
+        height: 7px;
+        width: 7px;
+        
+      
     }
+    
     
     #punto6 { /*Atedral de Buenaventura*/
-        top: 65%; /* Posición vertical */
+        top: 34.5%; /* Posición vertical */
         left: 51.1%; /* Posición horizontal*/
+        height: 7px;
+        width: 7px;
     }
+    
     
     #punto7 { /*Pianguita*/
-        top: 68%; /* Posición vertical */
+        top: 35.2%; /* Posición vertical */
         left: 44.5%; /* Posición horizontal*/ 
+        height: 7px;
+        width: 7px;
+    
+    }
+
+
+
+    .informacion {
+        background-color: #ededed; /*Color de fondo del elemento*/
+        display: none; /*Ocultar elemento */ 
+        position: absolute; /* Posición obsoluta */
+        top: 32%; /* Distancia entre la parte superior del elemento y el contenedor */
+        left: 20%;  /* Distancia entre la parte izquierda del elemento y el contenedor */
+        width: 70%; /*Ancho del elemento del 50% del contenedor*/
+        
+        padding: 2%; /* Espacio de relleno del 2% en todos los lados */
+        border-radius: 12px;
     }
     
+    .informacion img {
+        width: auto;  /* Ancho automático  */ 
+        height: auto; /* Altura automática */ 
+        max-width: 100%; /* Ancho máx de 100%*/
+        max-height: 100%; /* Ancho min de 100% */
+    }
+    
+    
+
 }
